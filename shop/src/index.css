@@ -1,7 +1,9 @@
 body{
-  background-color:#f2d049;
+  background-color:#FFD700;
   width:100%;
   height:100%;
+  overflow-x: hidden;
+
 }
 .container{
   display: flex;
@@ -35,9 +37,9 @@ button:hover{
 .content{
   font-weight: 700;
   color:black;
-  border:4px solid black;
-  box-shadow: 25px 25px white;
-  padding:20px;
+  border:4px solid white;
+  border-radius: 15px;
+  padding:25px;
   font-size: 23px;
   word-spacing: 5px;
   line-height: 40px;

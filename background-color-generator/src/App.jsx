@@ -30,10 +30,19 @@ function App() {
           gap: "20px",
         }}
       >
-        <button onClick={changeColor}>Generate Random Color</button>
+        <button 
+        style={{
+          padding:"8px 15px",
+          border:"2px solid black",
+          borderRadius:"20px",
+          fontWeight:"600",
+          fontSize:"26px",
+          boxShadow:"5px 5px black"
+        }}
+        onClick={changeColor}>Generate Random Color</button>
         <h3
           style={{
-            fontSize: "22px",
+            fontSize: "40px",
             fontWeight: "600",
             color: "#fff",
           }}

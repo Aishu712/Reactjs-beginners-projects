@@ -21,11 +21,21 @@ const Clock = () => {
 
   }
   function getTime(){
+    let it = ""
     let hours = time.getHours()  
     let minutes = time.getMinutes()
     let seconds = time.getSeconds()
-    hours = hours % 12 || 12
-    return `${addzero(hours)} : ${addzero(minutes)} : ${addzero(seconds)} `
+    if(hours > 12){
+      hours = hours % 12 || 12
+      return `${addzero(hours)} : ${addzero(minutes)} : ${addzero(seconds)}  PM ` 
+    }
+    else{
+      hours = hours % 12 || 12
+      return `${addzero(hours)} : ${addzero(minutes)} : ${addzero(seconds)}  AM `
+      
+    }
+    
+    
   }
   return (
     <>

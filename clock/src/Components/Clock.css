@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.clock-container{
+  font-size: 5rem;
+  font-family:"Montserrat", sans-serif;
+  padding:5px;
+  text-shadow: 5px 5px rgba(255, 255, 255, 0.838);
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (max-width:450px){
+  .clock-container{
+    font-size: 3rem;
+  }
+
+}

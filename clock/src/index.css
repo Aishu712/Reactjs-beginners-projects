@@ -1,0 +1,15 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('https://cdn.dribbble.com/users/13449/screenshots/16722436/media/4d3f0104d2e6e0065b9a3847d92d91ef.png?resize=1000x750&vertical=center');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
